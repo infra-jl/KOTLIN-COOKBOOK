@@ -1,0 +1,12 @@
+server:
+  shutdown: graceful
+spring:
+  application:
+    name: cookbook
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cookbook
+    username: chef
+    password: Delicious123!
+  flyway:
+    baseline-on-migrate: true
+    baseline-version: 0
