@@ -1,0 +1,5 @@
+server:
+  shutdown: graceful
+spring:
+  application:
+    name: cookbook
